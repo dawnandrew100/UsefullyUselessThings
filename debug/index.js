@@ -7,7 +7,7 @@ const PORT = 5000;
 app.use(express.static("/workspaces/UsefullyUselessThings"));
 
 app.get('/', (req, res) => {
-  res.sendFile("/workspaces/UsefullyUselessThings/index.html");
+  res.sendFile("/workspaces/UsefullyUselessThings/docs/index.html");
 });
 
 app.listen(PORT, () => {
