@@ -81,7 +81,10 @@
   transition: background-color 0.5s ease-in-out;
 }
 
-
+svg {
+    display: block;
+    margin: auto;
+}
 
 .btn {
     color: #000000;   
