@@ -86,6 +86,11 @@ svg {
     margin: auto;
 }
 
+.centre {
+    display: block;
+    text-align: center;
+}
+
 .btn {
     color: #000000;   
     background-color: transparent;
