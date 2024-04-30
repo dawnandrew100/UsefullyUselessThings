@@ -1,5 +1,6 @@
 .colour-scheme {
     color-scheme: light dark;
+    background: #f5f5f6;
 }
 
 @media (prefers-color-scheme:dark) {
