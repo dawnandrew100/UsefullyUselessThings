@@ -88,8 +88,10 @@ svg {
 
 .centre {
     display: block;
+    padding-bottom: 1.5em;
     text-align: center;
 }
+
 
 .btn {
     color: #000000;   
