@@ -1,3 +1,15 @@
+.colour-scheme {
+    color-scheme: light dark;
+}
+
+@media (prefers-color-scheme:dark) {
+    .colour-scheme.adaptive {
+    background: #2d333b;
+    color:#dfdffd;
+  }
+}
+
+
 /* latin */
   body {
     margin: 0;
