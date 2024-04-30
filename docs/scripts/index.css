@@ -8,6 +8,12 @@
     background: #2d333b;
     color:#dfdffd;
   }
+    .btn { 
+            color:#dfdffd;
+        &:hover{
+            color:#fff;
+        }
+    }
 }
 
 .body {
@@ -110,8 +116,7 @@ svg {
 }
 
 
-.btn {
-    color: #000000;   
+.btn {   
     background-color: transparent;
     outline:0;
 
@@ -125,7 +130,7 @@ svg {
 
     border: 2px solid #1073c9; 
     &:hover {
-        color: #ffffff;
+        color: #fff;
         background-color: #1073c9;
         cursor: pointer;
     } 
