@@ -16,3 +16,6 @@ window.addEventListener("scroll", e => {
   }
 });
 
+window.addEventListener("visibilitychange", e => {
+    document.body.scrollTop=document.documentElement.scrollTop = 0;
+});
