@@ -3,16 +3,24 @@
     background: #f5f5f6;
 }
 
+    #states a.inverse text {
+           fill: #222;
+    }
+
 @media (prefers-color-scheme:dark) {
     .colour-scheme.adaptive {
-    background: #2d333b;
-    color:#dfdffd;
+            background: #2d333b;
+            color:#dfdffd;
   }
     .btn { 
             color:#dfdffd;
         &:hover{
             color:#fff;
         }
+    }
+
+    #states a.inverse text {
+           fill: #EAEAEA;
     }
 }
 

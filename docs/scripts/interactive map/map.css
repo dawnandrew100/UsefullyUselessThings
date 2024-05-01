@@ -1,53 +1,35 @@
 #states a path {
-  transition: fill .5s ease;
-  -moz-transition: fill .5s ease;
-  -webkit-transition: fill .5s ease;
-  fill: #81a1ac;
+	transition: fill .5s ease;
+	-moz-transition: fill .5s ease;
+	-webkit-transition: fill .5s ease;
+	fill: #81a1ac;
 }
 
 #states a:hover path {
-  transition: fill .5s ease;
-  -moz-transition: fill .5s ease;
-  -webkit-transition: fill .5s ease;
-  fill: #425957 !important;
+	transition: fill .5s ease;
+	-moz-transition: fill .5s ease;
+	-webkit-transition: fill .5s ease;
+	fill: #425957 !important;
 }
 
 #states a:hover path {
-  cursor: pointer;
-  fill: #425957;
+	cursor: pointer;
+	fill: #425957;
 }
 
 #states a text {
-  cursor: pointer;
-  fill: #222222;
+	font-size: 9px;
 }
 
 #states a:hover text {
-  fill: #EAEAEA;
-  color: #EAEAEA;
+	fill: #EAEAEA;
+	color: #EAEAEA;
 }
 
 #states a.inverse text:hover {
-  fill: #EAEAEA;
-}
-
-#states a.inverse text {
-  fill: #222222;
-}
-
-.CCMcredit a {
-  color: #81AC8B;
-}
-
-#states a text {
-  font-size: 9px;
+	fill: #EAEAEA;
 }
 
 .hover-color {
-  fill: #425957
-}
-
-.tooltip {
-  background: #222222 !important;
-  color: #FFFFFF !important;
+	fill: #425957
 }
