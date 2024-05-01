@@ -34,7 +34,6 @@
     text-align: center;
     width: 100%; 
     padding-top: 60px;
-    padding-bottom: 60px;
     display: block;
   }
 
@@ -79,7 +78,7 @@
 
   /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
   .navbarOffsetMargin {
-    padding-bottom: 7em;
+    padding-bottom: 3em;
   }
 
   .transition {
