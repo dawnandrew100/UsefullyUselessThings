@@ -4,7 +4,7 @@ let navPos = navbar.getBoundingClientRect().top;
 
 window.addEventListener("scroll", e => {
   let scrollPos = window.scrollY;
-  if (scrollPos >= navPos) {
+  if (scrollPos > navPos) {
     navbar.classList.add('sticky');
     navbar.classList.add('transition');
     navbar.classList.remove('endtransition');
