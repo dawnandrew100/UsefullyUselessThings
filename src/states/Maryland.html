@@ -6,10 +6,22 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela Round">
     <title>Wonderfully Useless Welcome Page</title>
 	<script src="scripts/htmx/htmx.min.js"></script>
+    <style>
+        .tab-content {
+            display: none;
+        }
+    </style>
   </head>
 
   <body>
-    <span id="header" class="center"><h1>Usefully Useless Things</h1></span>
+    <div id="header" class="center">
+        <h1>Usefully Useless Things</h1>
+        <img 
+        style="width: 16vw" 
+        alt="Flag of Maryland" 
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Maryland.svg/512px-Flag_of_Maryland.svg.png">
+    </div>
+
     <div class="center">
 		<div id="navbar">
 		  <a href="../index.html">Home</a>
@@ -19,10 +31,16 @@
 		</div>
     </div>
 
-    <div class="body">
+    <div class="body"> 
     <div style="padding-left:16px">
-      <h1>Purpose</h1>
-      <p>The purpose of this website is twofold. The primary goal is to practice my data illustration skills and build my toolkit as a data scientist, but also to have a collection of graphs, or charts, or anything that may be useful to someone; even if it may not be useful to me.</p>
+      <h1>Maryland</h1>
+      <p>Home of crabs and old bay, Maryland is a picturesque place from the oceanic coast of the Eastern Shore to the Appalachian mountains of the west.</p>
+      <h3>State facts</h3>
+      <ul>
+          <li><b>State Bird</b>: Baltimore Oriole</li>
+          <li><b>State Tree</b>: White Oak</li>
+          <li><b>State Reptile</b>: Diamond Back Terrapin</li>
+      <ul>
     </div>
 	<div>
 		<link rel = "stylesheet" href="../scripts/interactive map/map.css">
@@ -98,7 +116,32 @@
   U of M Extension
     </button>
     </div>
-
+<div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'description')">Description</button>
+        <button class="tablinks" onclick="openTab(event, 'shipping')">Shipping</button>
+        <button class="tablinks" onclick="openTab(event, 'returns')">Returns</button>
+    </div>
+    <div id="description" class="tab-content">
+        <!-- Your description content here -->
+        <p>Tab1</p>
+    </div>
+    <div id="shipping" class="tab-content">
+        <!-- Your shipping content here -->
+        <p>Tab2</p>
+    </div>
+    <div id="returns" class="tab-content">
+        <!-- Your returns content here -->
+        <p>Tab3</p>
+    </div>
+    <script>
+        function openTab(evt, tabName) {
+            const tabContents = document.getElementsByClassName("tab-content");
+            for (const content of tabContents) {
+                content.style.display = "none";
+            }
+            document.getElementById(tabName).style.display = "block";
+        }
+    </script>
     <div>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nisi quo molestias pariatur atque quis dignissimos. Quae ullam dolorem voluptatem quisquam asperiores, odio, esse aut non doloribus amet eius saepe obcaecati quis corrupti aspernatur blanditiis beatae distinctio doloremque possimus cum expedita ea. Doloremque sunt, repudiandae veniam iste quia ducimus aliquam nostrum a? Quas labore, nihil eveniet similique facere praesentium iusto, reprehenderit veritatis, beatae quaerat dolorem. Inventore dolorum consequatur ex assumenda distinctio voluptates, magnam itaque, expedita fugit cupiditate eius neque eaque delectus similique voluptatibus mollitia sunt officiis. Expedita vero voluptatum excepturi, iure modi id, dignissimos nam enim laudantium ipsa ullam numquam!</p>
       <p>Vel, eveniet aut aperiam nemo consequuntur rem voluptatum voluptatem, similique debitis eos esse laudantium eius et dolores veritatis perspiciatis repellendus numquam vitae itaque dolore asperiores doloribus? Eum repudiandae nemo fugiat vel hic odio quod saepe itaque, exercitationem maiores magnam officiis sed maxime eius quos harum, sunt tenetur sit enim eligendi praesentium, consequatur dolore in obcaecati. Ducimus neque cum quo iure laboriosam rem libero ad. Animi fuga alias voluptates fugit debitis necessitatibus provident quod earum harum atque, assumenda ad accusantium, deserunt obcaecati vero error deleniti vitae omnis! Totam, animi asperiores? Laboriosam doloribus dicta quos quasi ipsa? Eum officia aliquid animi aut?</p>
