@@ -1,0 +1,35 @@
+#states a path {
+	transition: fill .5s ease;
+	-moz-transition: fill .5s ease;
+	-webkit-transition: fill .5s ease;
+	fill: #81a1ac;
+}
+
+#states a:hover path {
+	transition: fill .5s ease;
+	-moz-transition: fill .5s ease;
+	-webkit-transition: fill .5s ease;
+	fill: #425957 !important;
+}
+
+#states a:hover path {
+	cursor: pointer;
+	fill: #425957;
+}
+
+#states a text {
+	font-size: 9px;
+}
+
+#states a:hover text {
+	fill: #EAEAEA;
+	color: #EAEAEA;
+}
+
+#states a.inverse text:hover {
+	fill: #EAEAEA;
+}
+
+.hover-color {
+	fill: #425957
+}

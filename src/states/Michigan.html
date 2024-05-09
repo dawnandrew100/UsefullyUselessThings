@@ -3,6 +3,7 @@
 
   <head>
     <link rel="stylesheet" href="../scripts/index.css">
+    <link rel="stylesheet" href="../scripts/navbar.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela Round">
     <title>Wonderfully Useless Welcome Page</title>	
 	<script src="scripts/htmx/htmx.min.js"></script>
@@ -16,14 +17,8 @@
           alt="Flag of Michigan",
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Flag_of_Michigan.svg/640px-Flag_of_Michigan.svg.png">
       </div>
-    <div class="center">
-		<div id="navbar">
-		  <a href="../index.html">Home</a>
-		  <a class="active" href="../playground.html">Playground</a>
-		  <a href="#contact">Contact</a>
-		  <a href="../about.html">About</a>
-        </div>
-    </div>
+    
+      <iframe id="navbar" src="navbar.html"></iframe>
 
     <div class="body">
     <div style="padding-left:16px">
@@ -31,10 +26,10 @@
       <p>The purpose of this website is twofold. The primary goal is to practice my data illustration skills and build my toolkit as a data scientist, but also to have a collection of graphs, or charts, or anything that may be useful to someone; even if it may not be useful to me.</p>
     </div>
 	<div>
-		<link rel = "stylesheet" href="../scripts/interactive map/map.css">
+		<link rel = "stylesheet" href="../scripts/map.css">
     </div>
     <svg id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="518px" height="580px" viewBox="0 0 518 580" enable-background="new 0 0 518 580" xml:space="preserve">
-        <g id="states">
+        <g id="states" stroke="white" stroke-width="1.5">
 <a><path id="Alcona_County" fill-rule="evenodd" clip-rule="evenodd" fill="#C1C1C1" d="M457.719,296.113c4.125,10.495,0.55,22.4,0,30.526   c-11.872,0-23.744,0-35.615,0c0-10.176,0-20.351,0-30.526C433.975,296.113,445.847,296.113,457.719,296.113z">
     </path></a>
 	<a><path id="Alger_County" fill-rule="evenodd" clip-rule="evenodd" fill="#C1C1C1" d="M294.909,133.304c-1.692,3.819-1.293,9.731-1.272,15.264   c-10.599,0-21.199,0-31.798,0c0,5.088,0,10.175,0,15.264c-5.512,0-11.023,0-16.536,0c0,5.088,0,10.175,0,15.264   c-10.174,0-20.351,0-30.526,0c0-9.752,0-19.504,0-29.255c2.75-1.066,4.338-3.292,8.903-2.543c-0.468,7.746,4.341,3.611,7.632,8.903   c1.861-1.106,4.03-1.904,3.816-5.087c3.993-0.602,3.36,3.424,6.359,3.815c3.005-2.984-0.207-6.249,0-10.175   c7.066,0.354-0.221,7.608,6.36,8.904c1.507-4.004,7.419-3.603,7.631-8.904c6.569,1.187,14.421-6.563,20.351-10.175   C281.661,137.225,287.778,133.153,294.909,133.304z">

@@ -2,6 +2,7 @@
 <html class="colour-scheme adaptive">
 	<head>
 		<link rel="stylesheet" href="../scripts/index.css">
+		<link rel="stylesheet" href="../scripts/navbar.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela Round">
 		<title>Wonderfully Useless Welcome Page</title>
 	    <script src="scripts/htmx/htmx.min.js"></script>
@@ -14,14 +15,8 @@
             alt="Flag of Virginia",
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Virginia.svg/512px-Flag_of_Virginia.svg.png">
 		</div>
-		<div class="center">
-			<div id="navbar">
-				<a href="../index.html">Home</a>
-				<a class="active" href="../playground.html">Playground</a>
-				<a href="#contact">Contact</a>
-				<a href="../about.html">About</a>
-			</div>
-		</div>
+    
+        <iframe id="navbar" src="navbar.html"></iframe>
 
         <div class="body">
 		<div style="padding-left:16px">
@@ -29,7 +24,7 @@
 			<p>The purpose of this website is twofold. The primary goal is to practice my data illustration skills and build my toolkit as a data scientist, but also to have a collection of graphs, or charts, or anything that may be useful to someone; even if it may not be useful to me.</p>
 		</div>
 		<div>
-			<link rel="stylesheet" href="../scripts/interactive map/map.css">
+			<link rel="stylesheet" href="../scripts/map.css">
 		</div>
 		<svg id="map" class="Virginia" width="282mm" height="159mm" version="1.1" viewBox="0 0 28200 15900" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
 			<rect width="28200" height="15900" stop-color="#000000" fill-opacity="0.0"></rect>
