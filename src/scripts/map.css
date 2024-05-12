@@ -4,6 +4,12 @@
 	-webkit-transition: fill .5s ease;
 	fill: #81a1ac;
 }
+#states a rect {
+	transition: fill .5s ease;
+	-moz-transition: fill .5s ease;
+	-webkit-transition: fill .5s ease;
+	fill: #81a1ac;
+}
 
 #states a:hover path {
 	transition: fill .5s ease;
@@ -12,7 +18,19 @@
 	fill: #425957 !important;
 }
 
+#states a:hover rect {
+	transition: fill .5s ease;
+	-moz-transition: fill .5s ease;
+	-webkit-transition: fill .5s ease;
+	fill: #425957 !important;
+}
+
 #states a:hover path {
+	cursor: pointer;
+	fill: #425957;
+}
+
+#states a:hover rect {
 	cursor: pointer;
 	fill: #425957;
 }
