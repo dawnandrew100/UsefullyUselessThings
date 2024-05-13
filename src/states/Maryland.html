@@ -27,6 +27,7 @@
 
         <iframe id="navbar" scrolling="no" src="navbar.html"></iframe>
 
+        
         <div class="body">
             <div style="padding-left:16px">
                 <p>Home of crabs and old bay, Maryland is a picturesque place from the oceanic coast of the Eastern Shore to the Appalachian mountains of the west.</p>
@@ -123,44 +124,46 @@
     <!--
     <object height="800px" width="100%" data="https://extension.umd.edu/sites/extension.umd.edu/files/2021-04/UME%20Planting%20Calendar_EN_v4.0.pdf#zoom=88&toolbar=0&navpanes=0&scrollbar=0"></object>
     -->
-    <div class="card__flexbox" style="display: flex; gap: 1em;">          
-    <div class="card card--clickable">
-        <div class="card__content">
-                    <a href="https://extension.umd.edu/sites/extension.umd.edu/files/2021-04/UME%20Planting%20Calendar_EN_v4.0.pdf" target="_blank" aria-label="(PDF) Vegetable Planting Calendar for Central Maryland">
-            <div class="card__image">
-                <div class="card__image-sizer">
-                    <img src="images/hgic_veg_VegPlantCalendar_600.jpg" alt="vegetable planting calendar thumbnail">
-                </div>
-            </div>
-            <h2 class="card__title">
-            (PDF) Vegetable Planting Calendar for Central Maryland
-            </h2></a>      
-    <div class="card__body">
-        <p>Click the image to open the PDF. Use CTRL +F (PC) or Command + F on a Mac to search the PDF.</p>
-</div>
-    </div>
-</div>
-    <div class="card card--clickable">
-        <div class="card__content">
-                    <a href="https://www.ufseeds.com/maryland-vegetable-planting-calendar.html" target="_blank" aria-label="(PDF) Vegetable Planting Calendar for Central Maryland">
-            <div class="card__image">
-                <div class="card__image-sizer">
-                    <img src="images/ufseeds_planting_calendar.png" alt="vegetable planting calendar thumbnail">
-                </div>
-            </div>
-            <h2 class="card__title">
-            (Site Link) Vegetable Planting Calendar for State of Maryland
-            </h2></a>      
-    <div class="card__body">
-        <p>Click the image to open the PDF. Use CTRL +F (PC) or Command + F on a Mac to search the PDF.</p>
-</div>
-    </div>
-</div>
-    </div>
 
-            <script src="../scripts/htmx/sweetalert2.js"></script>
-            <div style="padding-top: 2em; padding-bottom:2em;">
-                <button class="btn endtransition" hx-get="/confirmed" 
+    <h1>Vegetable planting guides</h1>
+    <div class="card__flexbox" style="display: flex; gap: 1em; align-items: center; justify-content: center;">          
+        <div class="card card--clickable">
+            <div class="card__content">    
+                <a href="https://extension.umd.edu/sites/extension.umd.edu/files/2021-04/UME%20Planting%20Calendar_EN_v4.0.pdf" target="_blank" aria-label="(PDF) Vegetable Planting Calendar for Central Maryland">
+                    <div class="card__image">
+                        <div class="card__image-sizer">
+                            <img src="images/hgic_veg_VegPlantCalendar_600.jpg" alt="vegetable planting calendar thumbnail">
+                        </div>
+                    </div>
+                    <h2 class="card__title">
+            (PDF) Vegetable Planting Calendar for Central Maryland
+                    </h2></a>      
+                    <div class="card__body">
+                        <p>Click the image to open the PDF. Use CTRL +F (PC) or Command + F on a Mac to search the PDF.</p>
+                    </div>
+            </div>
+        </div>
+        <div class="card card--clickable">
+            <div class="card__content">    
+                <a href="https://www.ufseeds.com/maryland-vegetable-planting-calendar.html" target="_blank" aria-label="(PDF) Vegetable Planting Calendar for Central Maryland">
+                    <div class="card__image">
+                        <div class="card__image-sizer">
+                            <img src="images/ufseeds_planting_calendar.png" alt="vegetable planting calendar thumbnail">
+                        </div>
+                    </div>
+                    <h2 class="card__title">
+            (Site Link) Vegetable Planting Calendar for State of Maryland
+                    </h2></a>
+                    <div class="card__body">
+                        <p>Click the image to open the PDF. Use CTRL +F (PC) or Command + F on a Mac to search the PDF.</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+        
+    <script src="../scripts/htmx/sweetalert2.js"></script>        
+    <div style="padding-top: 2em; padding-bottom:2em;">        
+        <button class="btn endtransition" hx-get="/confirmed" 
                     hx-trigger='confirmed'
                     onClick="Swal.fire({title: 'You\'re about to go to an external site', 
                                         text:'Do you want to continue?',
@@ -172,8 +175,8 @@
                                         } 
                                         })">
   UMD Extension
-                </button>
-            </div>
+        </button>
+    </div>
 
         <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nisi quo molestias pariatur atque quis dignissimos. Quae ullam dolorem voluptatem quisquam asperiores, odio, esse aut non doloribus amet eius saepe obcaecati quis corrupti aspernatur blanditiis beatae distinctio doloremque possimus cum expedita ea. Doloremque sunt, repudiandae veniam iste quia ducimus aliquam nostrum a? Quas labore, nihil eveniet similique facere praesentium iusto, reprehenderit veritatis, beatae quaerat dolorem. Inventore dolorum consequatur ex assumenda distinctio voluptates, magnam itaque, expedita fugit cupiditate eius neque eaque delectus similique voluptatibus mollitia sunt officiis. Expedita vero voluptatum excepturi, iure modi id, dignissimos nam enim laudantium ipsa ullam numquam!</p>
