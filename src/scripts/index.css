@@ -1,12 +1,14 @@
 .colour-scheme {
     color-scheme: light dark;
     /*background: #f5f5f6; this is a light grey*/
-    background: #f6eee8;
+    background: #fcf8f6;
 }
-
     #states a.inverse text {
            fill: #222;
     }
+  .transition {
+    background-color: #deedf4;
+}
 
 @media (prefers-color-scheme:dark) {
     .colour-scheme.adaptive {
@@ -19,9 +21,11 @@
             color:#fff;
         }
     }
-
     #states a.inverse text {
            fill: #EAEAEA;
+    }
+    .transition {
+        background-color: #222;
     }
 }
 

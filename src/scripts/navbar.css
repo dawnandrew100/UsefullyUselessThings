@@ -1,4 +1,4 @@
-iframe {
+iframe#navbar {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -8,6 +8,7 @@ iframe {
     padding: 0;
     margin: 0;
     overflow: "hidden";
+    z-index: 10;
 }
 
   /* Style the navbar */
@@ -31,14 +32,7 @@ iframe {
     color: black;
   }
 
-  #navbar a.active {
-    background-color: #1073c9;
-    color: white;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 2);
-  }
-
   .transition {
-    background-color: #222222;
     -webkit-transition: background-color 0.5s ease-in-out;
     -moz-transition: background-color 0.5s ease-in-out;
     -ms-transition: background-color 0.5s ease-in-out;
@@ -54,4 +48,3 @@ iframe {
   -o-transition: background-color 0.5s ease-in-out;
   transition: background-color 0.5s ease-in-out;
 }
-
