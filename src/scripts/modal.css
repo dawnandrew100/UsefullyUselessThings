@@ -7,9 +7,9 @@
     left: 0;
     top: 0;
     padding: 20px;
-    min-width: 96vw; /* Full width */
-    min-height: 100vh; /* Full height */
     overflow: auto; /* Enable scroll if needed */
+    width: 96vw; /* Full width */
+    height: 100vh; /* Full height */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
@@ -18,13 +18,14 @@
 .modal-content {
     background-color: #fefefe;
     margin-top: 5em;
-    margin-bottom: 200em;
+    margin-bottom: 5em;
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
     border: 1px solid #888;
     width: 30%; /* Could be more or less, depending on screen size */
-    height: 100%;
+    min-height: 20vh;
+    max-height: 90vh;
 }
 
 /* The Close Button */
@@ -67,4 +68,16 @@
     background-color: #fefefe;
     color: black;
     transition: max-height 0.2s ease-out;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: left;
+  margin-right: 10px;
+}
+
+.active:after {
+  content: "\2212";
 }

@@ -1,15 +1,13 @@
 //THE FOLLOWING CODE IS FOR THE MODAL WINDOW
-
+/*
 // Get the modal
 var modal = document.getElementById("BaltimoreCityModal");
 
 // Get the button that opens the modal
 var county = document.getElementById("BaltimoreCity");
-
+*/
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
-
-/*
 
 var modal = "";
 var county = "";
@@ -17,20 +15,18 @@ var county = "";
 function clicked(clicked_id) {
     let tempcounty = clicked_id;
     let tempmodal = clicked_id + "Modal";
-    alert(tempcounty)
-    alert(tempmodal)
     county = document.getElementById(tempcounty);
     modal = document.getElementById(tempmodal);
+    openmodal()
 }
 
-*/
-
 // When the user clicks on the button, open the modal
-county.onclick = function() {
-    modal.style.display = "block"; 
+function openmodal() {
+    modal.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
+
 span.onclick = function() {
   modal.style.display = "none";
 }
