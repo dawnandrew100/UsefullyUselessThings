@@ -23,7 +23,7 @@
     margin-right: auto;
     padding: 1rem;
     border: 1px solid #888;
-    width: 30%; /* Could be more or less, depending on screen size */
+    width: 45%; /* Could be more or less, depending on screen size */
     min-height: 20vh;
     max-height: 90vh;
 }
@@ -80,4 +80,19 @@
 
 .active:after {
   content: "\2212";
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    flex: 50%;
+}
+
+/* Clear floats after the columns */
+.row {
+    display: flex;
 }
