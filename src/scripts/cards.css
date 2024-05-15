@@ -2,6 +2,7 @@
     background-color: #fff;
     border: .0625rem solid #d5d7da;
     box-shadow: .125rem .1875rem 1rem -.125rem rgba(68,125,124,.2);
+    color: #000;
     display: flex;
     flex-direction: column-reverse;
     height: 100%;
