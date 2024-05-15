@@ -21,9 +21,9 @@
     margin-bottom: 200em;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 1rem;
     border: 1px solid #888;
-    width: 95%; /* Could be more or less, depending on screen size */
+    width: 30%; /* Could be more or less, depending on screen size */
     height: 100%;
 }
 
@@ -44,7 +44,7 @@
 
 /*THIS SECTION IS FOR THE COLLAPSIBLE MENUS*/
 .collapsible {
-    background-color: #777;
+    background-color: #81a1ac;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -57,13 +57,14 @@
 }
 
 .active, .collapsible:hover {
-    background-color: #555;
+    background-color: #425957;
 }
 
 .collapsecontent {
     padding: 0 18px;
+    max-height: 0;
     display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #fefefe;
     color: black;
+    transition: max-height 0.2s ease-out;
 }

@@ -14,7 +14,6 @@ window.addEventListener("scroll", e => {
   }
 });
 
-window.addEventListener("visibilitychange", e => {
-    //if modal click then don't scroll to top
-    document.body.scrollTop=document.documentElement.scrollTop = 0;
-});
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
