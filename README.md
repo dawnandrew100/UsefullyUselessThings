@@ -17,12 +17,12 @@ Allow for users to choose whether to take trains or busses exclusively or take a
 The intention for this project is not only to be a routing application, but also a location to store itineraries as well as easily access external sites to purchase tickets for a trip across multiple agencies!
 
 ## Source Materials
-[OSM](https://www.openstreetmap.org/)
-[OSM Python tools](https://wiki.openstreetmap.org/wiki/OSMPythonTools)
-[GTFS](https://gtfs.org/)
-[General Transit Feed Specification APIs](https://gtfs.org/resources/software-for-creating-apis/)
-[National Transit Map data](https://geodata.bts.gov/search?q=NTM)
-[National Transit Database](https://www.transit.dot.gov/ntd)
-[French National Access Point to transport data](https://transport.data.gouv.fr/)
-[Open Trip Planner](https://github.com/opentripplanner/OpenTripPlanner)
-[Community list of transit APIs](https://github.com/MobilityData/awesome-transit?tab=readme-ov-file)
+- [OSM](https://www.openstreetmap.org/)
+- [OSM Python tools](https://wiki.openstreetmap.org/wiki/OSMPythonTools)
+- [GTFS](https://gtfs.org/)
+- [General Transit Feed Specification APIs](https://gtfs.org/resources/software-for-creating-apis/)
+- [National Transit Map data](https://geodata.bts.gov/search?q=NTM)
+- [National Transit Database](https://www.transit.dot.gov/ntd)
+- [French National Access Point to transport data](https://transport.data.gouv.fr/)
+- [Open Trip Planner](https://github.com/opentripplanner/OpenTripPlanner)
+- [Community list of transit APIs](https://github.com/MobilityData/awesome-transit?tab=readme-ov-file)
