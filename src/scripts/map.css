@@ -1,3 +1,10 @@
+svg {
+    display: block;
+    margin: auto;
+    max-height: 70vh;
+    max-width: 60vw;
+}
+
 #states a path {
 	transition: fill .5s ease;
 	-moz-transition: fill .5s ease;
@@ -16,6 +23,7 @@
 	-moz-transition: fill .5s ease;
 	-webkit-transition: fill .5s ease;
 	fill: #425957 !important;
+	cursor: pointer;
 }
 
 #states a:hover rect {
@@ -23,16 +31,7 @@
 	-moz-transition: fill .5s ease;
 	-webkit-transition: fill .5s ease;
 	fill: #425957 !important;
-}
-
-#states a:hover path {
 	cursor: pointer;
-	fill: #425957;
-}
-
-#states a:hover rect {
-	cursor: pointer;
-	fill: #425957;
 }
 
 #states a text {
