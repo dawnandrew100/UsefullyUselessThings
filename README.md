@@ -4,25 +4,14 @@ A site full of usefully useless stuff and things
 The first goal of this site is to add information from extensions from each state about best crops to plant. 
 Eventually, this site will also be home to everything from real time traffic light data to random data science quests and may one day be merged with walkable world.
 
-# Walkable-World
+# Environmental Health Dashboard
 
-This project will take advatage of open source software such as [OSM Python tools](https://wiki.openstreetmap.org/wiki/OSMPythonTools) in order to build a global transportation network
-It is also the goal of this project to take user data for where users want to go in order to build hypothetical future train/bus/metro/bike routes that could cut down on travel time
+Using either Go or Python, I would like to gather data from trustworthy sources about key environmental factors affecting various states in the US as well as the country of the Bahamas. Initially this will be focused on Maryland, DC, Virginia, and the Bahamas but my hope is for this to cover all 50 states as well as some other international destinations depending on the amount and quality of the data.  
 
 ## Long term goals
 
-A transportation network that can build routes across multiple regions and jurisdictions. Ex. Baltimore, MD to JFK Airport, NYC, NY via train
-Allow for users to choose whether to take trains or busses exclusively or take a mix of transportation methods including biking and walking
-
-The intention for this project is not only to be a routing application, but also a location to store itineraries as well as easily access external sites to purchase tickets for a trip across multiple agencies!
+The long term goals of this project are to determine what factors are most important in determining the health of the environment as well as the best way to subdivide areas (by county, by zone, by state, etc) as well as to distill this information into a concise series of charts in order to at a glance get a general idea of environmental conditions.
+Currently, my thoughts are to track keystone species, as well as the habitat of endangered species in addition to the health of the water, soil quality, and air quality, among other factors. My initial thoughts are to use sources such as NOAA and Audubon to track weather and species habitats.
 
 ## Source Materials
-- [OSM](https://www.openstreetmap.org/)
-- [OSM Python tools](https://wiki.openstreetmap.org/wiki/OSMPythonTools)
-- [GTFS](https://gtfs.org/)
-- [General Transit Feed Specification APIs](https://gtfs.org/resources/software-for-creating-apis/)
-- [National Transit Map data](https://geodata.bts.gov/search?q=NTM)
-- [National Transit Database](https://www.transit.dot.gov/ntd)
-- [French National Access Point to transport data](https://transport.data.gouv.fr/)
-- [Open Trip Planner](https://github.com/opentripplanner/OpenTripPlanner)
-- [Community list of transit APIs](https://github.com/MobilityData/awesome-transit?tab=readme-ov-file)
+- TBD
